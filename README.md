@@ -22,14 +22,6 @@ This project is a Python-based Amazon Web Scraper implemented in a Jupyter Noteb
 * **Amazon Web Scraper Project.ipynb**: Main notebook containing the scraping logic, data extraction, and export pipeline.
 * **Output CSV file(s)**: Saved data for analytics and reporting.
 
-## Requirements
-
-Install the required dependencies:
-
-```bash
-pip install requests beautifulsoup4 pandas
-```
-
 ## Usage
 
 1. Open the notebook `Amazon Web Scraper Project.ipynb`.
@@ -53,7 +45,3 @@ pip install requests beautifulsoup4 pandas
 * Add proxy and user-agent rotation to minimize blocking.
 * Extend functionality to track price changes over time.
 * Automate scheduling with tools like Airflow or Cron.
-
-## Disclaimer
-
-This project is intended for **educational purposes only**. Scraping Amazon or other e-commerce websites may violate their Terms of Service. Always check the legality and ethical implications before deploying web scrapers in production.
