@@ -17,31 +17,3 @@ This project is a Python-based Amazon Web Scraper implemented in a Jupyter Noteb
 * Export functionality to CSV for further analysis.
 * Supports automation and scheduling for continuous scraping.
 
-## Project Structure
-
-* **Amazon Web Scraper Project.ipynb**: Main notebook containing the scraping logic, data extraction, and export pipeline.
-* **Output CSV file(s)**: Saved data for analytics and reporting.
-
-## Usage
-
-1. Open the notebook `Amazon Web Scraper Project.ipynb`.
-2. Update the target Amazon product URL(s) in the designated cell.
-3. Run the cells sequentially to:
-
-   * Fetch HTML content
-   * Parse product details
-   * Clean and structure the data
-   * Save the output to CSV
-
-## Limitations
-
-* Amazon applies anti-scraping measures such as CAPTCHAs and dynamic content loading, which may restrict scraping.
-* Frequent scraping from the same IP may result in blocking.
-* This scraper is designed for educational and research purposes only.
-
-## Possible Enhancements
-
-* Integrate with Selenium or Playwright for dynamic content handling.
-* Add proxy and user-agent rotation to minimize blocking.
-* Extend functionality to track price changes over time.
-* Automate scheduling with tools like Airflow or Cron.
