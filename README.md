@@ -15,5 +15,5 @@ This project is a Python-based Amazon Web Scraper implemented in a Jupyter Noteb
   * Availability
 * Data cleaning and transformation for structured storage.
 * Export functionality to CSV for further analysis.
-* Supports automation and scheduling for continuous .
+* Supports automation and scheduling for continuous scraping.
 
